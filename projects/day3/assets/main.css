@@ -1,0 +1,23 @@
+.box{
+	 width:70px;
+	 border: 5px;
+	 background-color:red;
+	 border:2px solid black;
+	 height: 70px;
+	 display: inline-block;
+	 margin: 28px;
+	 padding: 30px;
+}
+div{
+	 background-color: lightgreen;
+     width: 100px;
+    border:5px solid red;
+    padding:10px;    
+     margin:px;
+}
+.box1{
+	width: 200px;
+	height: 80px;
+	 padding:20px;    
+     margin: 15px;
+}
