@@ -1,0 +1,84 @@
+.google{
+	background-color: red;
+	height: 100px;
+	width:500px;
+	color: white;
+	display:inline-block;
+	margin: 10px;
+	padding: 15px;
+}
+.material{
+	background-color: blue;
+	height: 100px;
+	width:250px;
+	color: white;
+	display:inline-block;
+	margin:10px;
+	padding: 15px;
+}
+.doole{
+	background-color: grey;
+	height: 100px;
+	width:250px;
+	color: white;
+	display:inline-block;
+	margin:10px;
+	padding: 15px;
+}
+.new{
+	background-color: blue;
+	height: 100px;
+	width: 250px;
+	display: inline-block;
+	margin:10px;
+	color: white;
+	padding: 15px;
+}
+.designe{
+	background-color: black;
+	height: 100px;
+	width: 500px;
+	display: inline-block;
+	margin: 10px;
+	color:white;
+	padding: 15px;
+}
+.glass{
+	background-color: yellow;
+	height :100px;
+	width:250px;
+	display: inline-block;
+	color:white;
+	padding: 15px;
+	margin: 10px;
+}
+.html{
+	background-color: orange;
+	height: 100px;
+	width: 250px;
+	display: inline-block;
+	color: white;
+	margin: 10px;
+	padding: 15px;
+}
+.css{
+	padding: 15px;
+	background-color: red;
+	height:100px;
+	width: 250px;
+	color:white;
+	display: inline-block;
+	margin: 10px;
+}
+.js{
+	background-color: grey;
+	height:100px;
+	width: 500px;
+	color:white;
+	display: inline-block;
+	margin: 10px;
+	padding: 15px;
+}
+.wraper{
+	text-align: center;
+}
