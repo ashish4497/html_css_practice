@@ -29,11 +29,13 @@ hr{
 	border:5px solid red;
 	background-color: yellow;
 	padding:15px;
-
 }
 .child{
+	background-color: pink;	
+ }
+ .child1{
 	background-color: pink;
-	
+		display: inline-block;	
  }
  .parent1{
  	background-color: lightgrey;
@@ -48,17 +50,18 @@ hr{
  	background-color: grey;
  	border:5px solid red;
  	padding: 10px;
- 	float: bottom;
+ 	
  }
- .box1{
+ .box{
  	background-color: blue;
  	height:50px;
- 	margin-top: 10px;
+ 	width: 100%;
+ 	margin: 10px;
  }
  .manyfloats{
  	background-color: red;
  	border:5px solid black;
- 	padding: 20px;
+ 	padding:20px;
 }
 .box2{
 	background-color: grey;
@@ -71,15 +74,26 @@ hr{
 	background-color: orange;
 	border:5px solid red;
 	padding:25px;
-
-}
-.box3{
-	background-color: grey;
-	height:100px;
-	width:210px;
-	margin:15px;
-	float: left;
 }
 .clear{
 	clear:both;
 }
+.line{
+	clear: both;
+	margin:20px;
+}
+
+.left-float {
+	float: left;
+}
+.invisible{
+	border:3px solid red;
+	background-color: lightblue;
+	height: 100px;
+	padding:15px; 
+	
+}
+.new{
+	background-color: pink;
+}
+

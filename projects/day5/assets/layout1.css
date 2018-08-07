@@ -1,0 +1,25 @@
+.container{
+	width: 60%;
+	margin: 0 auto;
+}
+body{
+	background-color: #292f2b;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+}
+ .text{
+	color:red;
+	float: left;
+
+}
+.date{
+	color: white;
+	float:right;
+}
+p{
+	clear: both;
+	color:#515148;
+}
