@@ -1,0 +1,18 @@
+.block{
+	width:80%;
+	margin:0 auto;
+	height: 500px;
+	background:  url("../assets/media/background-img.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+h1{
+	text-align: center;
+	color: white;
+}
+box1{
+background-color: red
+}
