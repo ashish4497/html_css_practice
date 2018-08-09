@@ -1,0 +1,25 @@
+.wraper{
+	margin: 0 auto;
+	width:950px;
+}
+.list ul{
+	font:25px bold;
+	background-color:red;
+	padding:5px 20px;
+}
+.list li{
+	display:inline;
+	margin:45px;
+}
+.list li a{
+	list-style-type: none;
+	color:white;
+}
+
+.box{
+	background-color:blue;
+	height:300px;
+	width:200px;
+	display: inline-block;
+	margin:50px;
+}
