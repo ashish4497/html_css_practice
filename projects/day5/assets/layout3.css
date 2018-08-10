@@ -1,25 +1,69 @@
 .wraper{
 	margin: 0 auto;
 	width:950px;
+	background-color: lightgrey;
 }
 .list ul{
-	font:25px bold;
 	background-color:red;
-	padding:5px 20px;
+	list-style-type:none;
+
+
 }
 .list li{
-	display:inline;
+	display:inline-block;
 	margin:45px;
+
 }
 .list li a{
-	list-style-type: none;
+	
 	color:white;
+	text-decoration: none;
 }
+ 
+ .list ul li a:hover{
+ 	background-color:darkred;
+ }
 
 .box{
 	background-color:blue;
 	height:300px;
-	width:200px;
+	width:170px;
 	display: inline-block;
 	margin:50px;
+	box-shadow: 10px 10px 15px;
+	padding: 10px;
+	vertical-align: top;
+}
+.box ol {
+	color: white;
+}
+ul{
+	color: white;
+}	
+.box1 ul  {
+	list-style-image: url("/home/ravi/Downloads/ok.png");
+}
+.text dl{
+	color:white;
+	margin:20px;
+}
+.text dt{
+	margin:20px;
+	color: black;
+	font-size: 25px;
+	}
+
+.footer ul {
+	background-color: black;
+	list-style-type: none;
+	
+}
+ .footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+.footer li{
+	display:inline-block;
+	margin:45px;
+
 }
