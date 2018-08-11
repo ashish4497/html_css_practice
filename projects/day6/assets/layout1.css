@@ -1,5 +1,171 @@
-.wraper{
-	margin: 0 auto;
-	width:900px;
+body{
 	background-color: #2d5339;
+
+}
+.wraper{
+	margin:0 auto;
+	width:970px;
+	
+}
+.header{
+	background-image: url(/home/ravi/Downloads/background.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:400px;
+	
+	text-align: center;
+
+}
+.header ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+.header ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin: 10px;
+		
+}
+h1{
+	margin:200px;
+	color: black;
+	font-size:40px;
+	text-align: center;
+}
+.container{
+	background-color: #dadada;
+	height: 500px;
+	
+	border-top: 10px solid lightgreen;
+	
+}
+.container img{
+	height:200px;
+	width: 250px;
+	margin:10px;
+	display: inline-block;
+
+}
+.box audio{
+	margin:10px;
+	width: 250px;
+	border-radius: 20px;
+	height:200px;
+	display: inline-block;
+}
+.box video{
+	height: 200px;
+	width: 250px;
+	margin:10px;
+	display: inline-block;
+}
+.box p{
+text-align: center;
+margin:20px;
+}
+.box{
+	display: inline-block;
+	width:250px;
+	margin:15px;
+	padding-top:20px;
+}
+.content{
+	background-color: green;
+	height:600px;
+	
+}
+.box3 h2{
+	color:white;
+	text-align: center;
+	font-size:20px;
+	margin:0px;
+	padding:25px;
+}
+p{
+	margin:50px;
+	text-align: center;
+}
+.box3 iframe{
+	border:10px solid white;
+	width:69%;
+	margin-left: 140px;
+	height: 250px;
+	margin-top: 20px;
+}
+.table{
+	background-color:skyblue;
+	height: 500px;
+	
+	padding-top: 30px;
+}
+ form{
+ 	text-align: center;
+ 	background-color:white;
+ 	height:400px;
+ 	width: 70%;
+ 	margin-left:140px;
+ 	padding-top:50px;
+ 	margin-top: 25px;
+}
+input{
+	margin:20px;
+	height:30px;
+	width:37%;
+	border-radius:2px;
+}
+textarea{
+	width:80%;
+	height:100px;
+	border-radius:2px;
+}
+label{
+	width: 80px;
+}
+button{
+	width: 40%;
+	height:45px;
+	background-color: lightgrey;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+button:hover{
+	background-color: red;
+}
+
+.subject{
+	width:60%;
+}
+.footer{
+	background-color: black;
+	padding-top: 30px;
+}
+.map iframe{
+		
+	width:70%;
+	height: 300px;
+	margin-top: 20px;
+}	
+}
+. footer map ul li{
+	display: inline-block;
+	list-style-type: none;
+
+}
+.footer ul li{
+	margin:10px;
+	text-align: center;
+	display: inline-block;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+}
+.footer{
+	text-align: center;
 }
