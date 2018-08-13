@@ -1,0 +1,22 @@
+.section{
+	margin:0 auto;
+	width:900px;
+}
+ li a{
+	color:black;
+	margin-left: 10px;
+	
+}
+ul{
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	margin-top: 50px;
+	
+
+}
+ul li {
+	display: inline-block;
+
+}
+
