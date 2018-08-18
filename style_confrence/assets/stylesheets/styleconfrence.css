@@ -243,11 +243,154 @@ p a{
     background: #fff;
     color: #648880;
   }
+  /*
+  ========================================
+  Primary header
+  ========================================
+*/
+.logo{
+    border-top: 4px solid #648880;
+    float:left;
+    font: size 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding:40px 0 22px0;
+    text-transform: uppercase;
+}
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+.primar-foorter{
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+}
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+  }
+  /*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav{
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.nav li:last-child{
+    margin-right: 0px;
+}
 /*
   ========================================
   Home
   ========================================
 */
 .hero{
-    padding: 22px 80px 66px 80px;
+   color: #fff;
+   line-height: 44px;
+   padding:22px 80px 66px 80px;
+   text-align: center;
 }
+.hero h2 {
+    font-size: 36px;
+}
+.hero p{
+    font-size: 24px;
+    font-weight: 100;
+}
+.teaser a:hover h3 {
+    color: #a9b2a9;
+}
+.teaser img {
+    border-radius: 5px;
+    display:block;
+    margin-bottom: 22px;
+    max-width: 100%
+}
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+.speaker {
+    margin-bottom: 44px;
+}
+.speaker-info {
+    border: 1px solid#dfe2e5;
+    border-radius: 5px;
+    margin-top:88px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.speaker-info img {
+    border-radius: 50%;
+    height:130px;
+    margin:-66px 0 22px 0;
+    vertical-align: top;
+}
+/*
+  ========================================
+  Venue
+  ========================================
+*/
+.venue-theatre {
+    margin-bottom: 66px;
+}
+.venue-hotel{
+    margin-bottom:22px;
+}
+.venue-map {
+    height: 264px;
+}
+
+/*
+  ========================================
+  Register
+  ========================================
+*/
+.why-attend {
+    list-style: square;
+    margin: 0 0 22px 30px;
+  }
+  form {
+    margin-bottom: 22px;
+  }
+  input,
+  select,
+  textarea {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .register-group label {
+    color: #648880;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+    height: 34px;
+    width: 60px;
+  }
+  .register-group textarea {
+    height: 78px;
+  }
