@@ -12,13 +12,14 @@ body{
 	position: fixed;
 	top:0;
 	right:0;
-	width: 100%;  
+	width: 100%; 
+
 	
 }
 h1{
 	color:white;
-	display: inline-block;
 	margin-left:150px;
+	display: inline-block;
 }
 
 ul li{
@@ -231,6 +232,7 @@ article{
 }
 span{
 	color:#34a788;
+
 }
 .footer{
 	background-color:#273849;
@@ -239,6 +241,52 @@ span{
 .footer p{
 	font-size: 20px;
 }
-@media screen and (max-width: 320px){
- 
+@media screen and (max-width: 480px) {
+ 	.waper{
+		text-align: center;
+		width:100%;
 }
+.navigation{
+
+}
+h1{
+	text-align: center;
+	width:100%;
+	margin:10px;
+}
+
+ul li{
+	display: block;
+	
+	width:100%;
+	margin: 20px;
+
+}
+.logo{
+	display: block;
+	width: 100%;
+	padding-top:10px;
+	padding-top: 150px;
+}
+h2{
+	width:100%;
+	text-align: center;
+	font-size: 30px;
+}
+p{
+	width:100%;
+	text-align: center;	
+	font-size: 30px;
+	margin: 0;
+}
+h3{
+	text-align: center;
+	width: 100%;
+}
+.portfolio img{
+	display:block;
+	
+}
+}
+
+
