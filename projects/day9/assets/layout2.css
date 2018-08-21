@@ -1,7 +1,26 @@
-body{
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+}
+body {
 	margin:0;
 	padding:0;
-	box-sizing: border-box;
+	
 }
 .wrapper{
 	margin:0 auto;
@@ -19,7 +38,7 @@ body{
 }
 h1{
 	color:white;
-	margin-left:150px;
+	margin-left: 150px;
 	display: inline-block;
 }
 
@@ -41,7 +60,7 @@ ul{
 
 .center {
 	text-align: center;
-	padding: 20px;
+	padding-bottom: 20px;
 }
 
 .color-white {
@@ -54,7 +73,7 @@ ul{
 }
 .logo{
 	
-	margin-top: 50px;
+	margin-top:40px;
 }
 .icon{
 	border-radius:100px;
@@ -65,12 +84,12 @@ ul{
 }
 h2{
 	color:white;
-	font-size:50px;
+	font-size:40px;
 	
 }
 p{
 	color: white;
-	font-size:20px;
+	font-size:30px;
 	
 }
 .portfolio{
@@ -94,7 +113,7 @@ h3{
 	margin-top:10px;
 	z-index:-1;
 	padding-top: 10px;
-
+	margin-bottom: 10px;
 
 }
 .about p{
@@ -135,7 +154,7 @@ input{
 	background-color: #268773;
 	margin-top: 20px;
 	float:left;
-	
+	margin-bottom: 15px;
 }
 .map {
 	background-color:#bcc7d3;
@@ -243,7 +262,7 @@ span{
 	text-align: center;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:460px) {
  	.wrapper {
 		text-align: center;
 		width:100%;
@@ -252,12 +271,12 @@ span{
 		position: relative;
 		top: 0;
 		width: 100%;
+		
 
 	}
 	h1 {
 		text-align: center;
-		width:100%;
-		margin:10px;
+		margin: auto;
 	}
 	ul{
 		margin-right: 50px;
@@ -268,6 +287,10 @@ span{
 		display: block;
 		width:100%;
 		padding: 10px;
+	}
+	.center {
+	text-align: center;
+	
 	}
 	.hero{
 		margin:0 auto;
@@ -282,17 +305,18 @@ span{
 	    border-radius: 100px;
 	    height: 200px;
 	    width: 200px;
-	    margin:0 auto;
+	    
 	}
 	h2{
 		width:100%;
 		text-align: center;
-		font-size: 20px;
+		font-size: 18px;
 	}
 	p{
 		width:100%;
 		text-align: center;	
 		font-size:20px;
+		padding: 10px;
 		
 	}
 	h3{
@@ -307,10 +331,14 @@ span{
 
 	.about p {
 		display:block;
-		font-size: 20px;
-		margin:0 auto;
-		width:100%;
+		font-size:20px;
+		width:80%;
+		margin: 10px auto;
+		padding-bottom: 20PX;
 
+	}
+	.btn1 button{
+		padding: 10px;
 	}
 	.contact{
 		
@@ -321,7 +349,7 @@ span{
 		margin:0 auto;
 	}
 	.btn button{
-		margin-left:40px;
+		margin-left:px;
 	}
 	.map{
 		
@@ -346,15 +374,18 @@ span{
 	}
 	.link h1{
 		margin:15px;
-
-}
+	}
 	.location , .web , .campus{
 		display: block;
-		margin:auto;
+		margin: 0 auto;
 		width:100%;
+	}
+	h1{
+		display: block;
 	}
 	.foote p{
 		width: 100%;
-		margin: auto;
+		margin: 0 auto;
+		padding:10px;
 	}
 }
