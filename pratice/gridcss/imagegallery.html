@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid-Images gallery</title>
+	<meta charset="utf-8"
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/imagegallery.css">
+</head>
+<body>
+	<div class="overlay">
+		<div class="overlay-inner">
+			<button class="close">close</button>
+			<img>
+		</div>
+	</div>
+	<section class="gallery">
+		<div class="item h4 v3"><img src="/home/ravi/Downloads/cat6.jpg">
+		</div>
+		<div class="item h2 v3"><img src="/home/ravi/Downloads/cat5.jpeg">
+		</div>
+		<div class="item h3 v2"><img src="/home/ravi/Downloads/cat1.jpg">
+		</div>
+		<div class="item h4 v4"><img src="/home/ravi/Downloads/cat5.jpeg">
+		</div>
+		<div class="item h3 v1"><img src="/home/ravi/Downloads/cat1.jpg">
+		</div>
+		<div class="item h1 v2"><img src="/home/ravi/Downloads/cat.jpg">
+		</div>
+		<div class="item h2 v3"><img src="/home/ravi/Downloads/cat2.jpg">
+		</div>
+		<div class="item h4 v3"><img src="/home/ravi/Downloads/cat6.jpg">
+		</div>
+		<div class="item h4 v4"><img src="/home/ravi/Downloads/cat5.jpeg">
+		</div>
+		<div class="item h2 v3"><img src="/home/ravi/Downloads/cat2.jpg">
+		</div>
+		<div class="item h4 v4"><img src="/home/ravi/Downloads/cat5.jpeg">
+		</div>
+	</section>
+	<script>
+		const gallery= document.queryselector('.gallery');
+		const overlay= document.queryselector('.overlay');
+		const overlayimage=overlay.queryselector('.img');
+		const overlayclose=overlay.queryselector('.close');
+
+		function generatehtml([h v]){
+		return
+			<div class"item h${h} v${v}">
+				<img src=" images/${randomnumber(5)}.jpg">
+			<div class="item overlay">
+				<button> view </button>
+			</div>
+			</div>
+		;
+		}
+		function randomnumber(limit){
+			return math.floor(math.random()*limit)+1;
+		}
+		const digits =array.form({length:50},()=>
+		[randomnumber(4),randomnumber(4)]);
+		gallery.innerhtml=html;
+	</script>
+</body>
+</html>

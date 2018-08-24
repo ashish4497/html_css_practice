@@ -1,0 +1,17 @@
+.container{
+  display:grid;
+  background-color:gold;
+  grid-gap:15px;
+  grid-template-columns:repeat(5,1fr);
+  
+  
+  
+}
+.item{
+  background-color:lightgrey;
+  border:2px solid grey;
+  text-align:center;
+}
+.item9{
+  background-color:red;
+}
