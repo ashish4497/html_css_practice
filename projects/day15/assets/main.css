@@ -1,0 +1,168 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: #3a4a4f;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width : 960px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+header{
+	display: grid;
+	color: white;
+	font-size: 20px;
+	justify-content: center;
+}
+.hero{
+	margin: 0 auto;
+}
+h2{
+	margin-top: 0;
+}
+.navigation{
+	background-color: white;
+	display: grid;
+	grid-template-columns: repeat(6,auto);
+	grid-gap: 20px;
+ 	font-size: 20px;
+	height:50px;
+	box-shadow:0 -5px 0 0 #0095bf;
+}
+.graph{
+	text-align: center;
+}
+.graph img{
+	height: 5em;
+    width: 5em;
+    font-size: 24px;
+    margin: 0 auto;
+}
+a{
+	margin: 0 auto;
+	text-decoration: none;
+	padding: 10px;
+	color: darkblue;
+}
+.section{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:1.5rem;
+	grid-template-areas: 
+	"card1 image card4"
+	"card2 image card5"
+	"card2 image card6"
+}
+.card1{
+	grid-area: card1;
+
+}
+.card2{
+	grid-area: card2;
+	
+}
+.image{
+	grid-area: image;
+}
+.card4{
+	grid-area: card4;
+}
+
+.card5{
+	grid-area: card5;	
+}
+
+.card6{
+	grid-area: card6;
+}
+
+.text--1,
+.text--2,
+.text--3,
+.text--4,
+.text--5,
+.text--6{
+	background-color: white;
+	margin-top: 10px;
+	box-shadow:0 -3px 0 0 #0095bf;
+	height:100%;
+	font-family:monospace;
+	
+}
+h2{
+	margin-left: 10px;
+}
+
+.cat{
+	text-align: center;
+}
+.cat img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+.heading {
+	margin-left: 10px;
+	color: 
+}
+.artical{
+	margin-left: 10px;
+}
+.link{
+	color: red;
+}
+.title{
+	background-color:#0095bf;
+	width: 100%;
+	color: white;
+	height:2em;
+}
+.link-bottom{
+	background-color:red;
+	width: 100%;
+	color: white;
+	height:2em;
+	bottom: 0;
+	margin:0;
+}
+.link-bottom .link{
+	color: white;
+}
+@media screen and (min-width:640px) and (max-width:1000px){
+	.section{
+		grid-template-columns: repeat(2,1fr);
+		grid-template-areas: 
+		"card1  card4"
+		"card2  card5"
+		"card2  card6"
+		"image  ."
+	}
+	.card1{
+		grid-area: card1;
+
+	}
+	.card2{
+		grid-area: card2;
+		
+	}
+	.image{
+		grid-area: image;
+	}
+	.card4{
+		grid-area: card4;
+	}
+
+	.card5{
+		grid-area: card5;	
+	}
+
+	.card6{
+		grid-area: card6;
+	}
+}
