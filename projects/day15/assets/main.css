@@ -166,3 +166,50 @@ h2{
 		grid-area: card6;
 	}
 }
+@media screen and (min-width:320px) and (max-width:640px){
+	.navigation{
+	grid-template-columns:repeat(1fr);
+	display: block;
+	}
+	.navigation{
+    grid-template-columns: repeat(6,auto);
+    grid-gap:1px;
+
+	}
+	.section{
+		grid-template-columns:1fr;
+		grid-template-areas: 
+		"card1"
+		"card2"
+		"card2"
+		"image"
+		"card4"
+		"card5"
+		"card6"
+	}
+
+	.card1{
+		grid-area: card1;
+
+	}
+	.card2{
+		grid-area: card2;
+		
+	}
+	.image{
+		grid-area: image;
+	}
+	.card4{
+		grid-area: card4;
+	}
+
+	.card5{
+		grid-area: card5;	
+	}
+
+	.card6{
+		grid-area: card6;
+	}
+	
+
+}
