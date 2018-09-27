@@ -34,12 +34,14 @@ body {
 	header
 ======================*/
 .top-1{
-	background-size: cover;
     height:100vh;
     background-image: url("../assets/media/1.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     padding-top: 50px;
+    margin: 0 auto;
+    background-attachment: fixed;
 
  }
  .navigation ul {
@@ -52,6 +54,10 @@ body {
  	justify-content: space-around;
  	cursor: pointer;
  	padding: 2rem;
+}
+a{
+	text-decoration: none;
+	color: black;
 }
 .heading {
 	text-transform: uppercase;
@@ -71,8 +77,8 @@ body {
 	about-me
 ======================*/
 .logo-image{
-	height:160px;
-	width:160px;
+	height:180px;
+	width:170px;
 	border-radius:50%;
 	padding: 20px;
 }
@@ -89,7 +95,8 @@ body {
 }
 .top-heading{
 	font-size:2rem;
-	color:#d3a6a6;
+	color:black;
+	font-weight: 600;
 }
 .intro-about{
 	font-size:20px;
@@ -108,17 +115,18 @@ body {
 	padding: 30px;
 }
 .project-detail img:hover{
-	margin:10px;
-	opacity: 1;
+	
+	/*opacity: 1;
 	 width: 100%;/
-  	height:100%;
-  	transition: .6s ease;
-  	backface-visibility: show;
+  	height:100%;*/
+  	transition:all 1s ease-in-out;
+  	transform: scale(1.2);
+/*  	backface-visibility: show;*/
 }
-img{
+.project-detail img{
 	width:100%;
 	height:300px;
-  
+  	box-shadow: 10px 15px #D3D3D3;
 }
 
 .image:hover
@@ -148,11 +156,14 @@ img{
 .contact{
 	background-color:black; 
 }
+.contact h1{
+	color: white;
+}
 .contact-detail{
 color:#fff;
 display: grid;
 grid-template-columns: 300px auto 350px;
-grid-gap:10px;
+grid-gap:2px;
 text-align: center;
 }
 .social-icon{
@@ -168,6 +179,7 @@ text-align: center;
 }
 .fab{
 	color: #fff;
+	font-size:18px;
 	position: absolute;
 	top: 50%;
 	left:50%;
@@ -175,7 +187,7 @@ text-align: center;
 }
 .location,.email-h{
 	color: white;
-	text-transform: uppercase;
+	text-transform:capitalize;
 	font-size: 1.5rem;
 	margin: 10px
 }
@@ -184,10 +196,17 @@ text-align: center;
 }
 .email{
 	vertical-align:top;
-	
+}
+.social-icon:hover{
+	background:white;
+}
+.fab:hover{	
+	color: black;
+
 }
 .footer{
 	background-color:black;
+	padding-bottom: 20px;
 }
 .footer p {
 	color: white;
@@ -195,4 +214,27 @@ text-align: center;
 	margin:0;
 	text-align: center;
 	padding-top:1.2rem;
+}
+/*==================mrdia queary========================
+========================================================*/
+@media all and (min-width: 320px) and (max-width: 640px) {
+.navigation ul{
+ 	display: none;
+}
+.heading h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 15px;
+}
+.project-detail {
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 30px;
+}
+.contact-detail{
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+}
 }
