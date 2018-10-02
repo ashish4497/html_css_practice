@@ -1,3 +1,6 @@
+/*=====================
+	css reset
+======================*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,13 +22,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 body {
-   	margin: 0 auto;
-    font-family:
-    font-size: 14px;
-    font-weight: normal;
-   box-sizing: border-box;
-    }
-.wrapper{
+  margin: 0 auto;
+  font-family:
+  font-size: 14px;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+.wrapper {
 	margin: 0 auto;
 	width:100%;
 	padding: 0px;
@@ -33,18 +36,17 @@ body {
 /*=====================
 	header
 ======================*/
-.top-1{
-    height:100vh;
-    background-image: url("../assets/media/1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 50px;
-    margin: 0 auto;
-    background-attachment: fixed;
-
- }
- .navigation ul {
+.top-1 {
+	height:100vh;
+  background-image: url("../assets/media/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  background-attachment: fixed;
+}
+.navigation ul {
  	display:flex;
  	list-style-type: none;
  	font-size:25px;
@@ -67,16 +69,15 @@ a{
 	left:6rem;
 	bottom:8rem;
 }
-.heading h4{
+.heading h4 {
 	font-size: 30px;
 	text-align: center;
 	padding: 15px;
 }
-
 /*=====================
 	about-me
 ======================*/
-.logo-image{
+.logo-image {
 	height:180px;
 	width:170px;
 	border-radius:50%;
@@ -85,20 +86,19 @@ a{
 .about-me {
 	background-color: #fff;
 	margin-top: 30px
-
 }
-.center{
+.center {
 	text-align: center;
 	margin: 0 auto;
 	padding: 20px;	
 	color:black;
 }
-.top-heading{
+.top-heading {
 	font-size:2rem;
 	color:black;
 	font-weight: 600;
 }
-.intro-about{
+.intro-about {
 	font-size:20px;
 	padding : 1.5rem;
 }
@@ -108,65 +108,56 @@ a{
 .projects {
 	background-color:#f3f3f3;
 }
-.project-detail{
+.project-detail {
 	display: grid;
 	grid-template-columns:repeat(3,1fr);
 	grid-gap:30px;
 	padding: 30px;
 }
-.project-detail img:hover{
-	
-	/*opacity: 1;
-	 width: 100%;/
-  	height:100%;*/
-  	transition:all 1s ease-in-out;
-  	transform: scale(1.2);
-/*  	backface-visibility: show;*/
+.project-detail img:hover {
+	transition:all 1s ease-in-out;
+  transform: scale(1.2);
 }
-.project-detail img{
+.project-detail img {
 	width:100%;
 	height:300px;
-  	box-shadow: 10px 15px #D3D3D3;
+  box-shadow: 10px 15px #D3D3D3;
 }
-
-.image:hover
-{
+.image:hover {
 	opacity: 0.3;
 	filter: alpha(opacity=30);
 }
-
 /*=====================
 	skill
 ======================*/
-.skill{
+.skill {
 	background-color:white; 
 }
-.skill-list{
+.skill-list {
 	margin-top:30px;
 }
-.skill-list img{
+.skill-list img {
 	height: 100px;
 	width: 150px;
 	padding:2rem;
-
 }
 /*=====================
 	contact
 ======================*/
-.contact{
+.contact {
 	background-color:black; 
 }
-.contact h1{
+.contact h1 {
 	color: white;
 }
-.contact-detail{
-color:#fff;
-display: grid;
-grid-template-columns: 300px auto 350px;
-grid-gap:2px;
-text-align: center;
+.contact-detail {
+	color:#fff;
+	display: grid;
+	grid-template-columns: 300px auto 350px;
+	grid-gap:2px;
+	text-align: center;
 }
-.social-icon{
+.social-icon {
 	margin:13px;
 	border:2px solid white;
 	border-radius:50%;
@@ -177,7 +168,7 @@ text-align: center;
 	display: inline-block;
 	margin:10px;
 }
-.fab{
+.fab {
 	color: #fff;
 	font-size:18px;
 	position: absolute;
@@ -185,26 +176,26 @@ text-align: center;
 	left:50%;
 	transform:translate(-50%,-50%);
 }
-.location,.email-h{
+.location,.email-h {
 	color: white;
 	text-transform:capitalize;
 	font-size: 1.5rem;
 	margin: 10px
 }
-.location{
+.location {
 	vertical-align: top;
 }
-.email{
+.email {
 	vertical-align:top;
 }
-.social-icon:hover{
+.social-icon:hover {
 	background:white;
 }
-.fab:hover{	
+.fab:hover {	
 	color: black;
 
 }
-.footer{
+.footer {
 	background-color:black;
 	padding-bottom: 20px;
 }
@@ -215,26 +206,40 @@ text-align: center;
 	text-align: center;
 	padding-top:1.2rem;
 }
-/*==================mrdia queary========================
+/*==================media queary========================
 ========================================================*/
 @media all and (min-width: 320px) and (max-width: 640px) {
-.navigation ul{
+.navigation ul {
  	display: none;
 }
+.top-1 {
+	background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  height: 13vh;
+}
+.heading {
+/*  font-size: 5rem;*/
+  /*font-family: sans-serif;
+  position: absolute;*/
+  left: 1rem;
+  bottom: 32rem;
+  font-size: 2rem;
+}
 .heading h4 {
-    font-size: 30px;
-    text-transform: capitalize;
-    font-weight: 400;
-    padding: 15px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 15px;
 }
 .project-detail {
 	display: grid;
 	grid-template-columns: auto;
 	grid-gap: 30px;
 }
-.contact-detail{
+.contact-detail {
 	display: grid;
 	grid-template-columns: auto;
 	grid-gap: 20px;
-}
 }
