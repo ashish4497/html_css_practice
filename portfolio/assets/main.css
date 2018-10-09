@@ -116,7 +116,7 @@ a{
 }
 .project-detail img:hover {
 	transition:all 1s ease-in-out;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .project-detail img {
 	width:100%;
@@ -137,8 +137,8 @@ a{
 	margin-top:30px;
 }
 .skill-list img {
-	height: 100px;
-	width: 150px;
+	height:8rem;
+	width:5rem%;
 	padding:2rem;
 }
 /*=====================
@@ -189,10 +189,10 @@ a{
 	vertical-align:top;
 }
 .social-icon:hover {
-	background:white;
+	background:black;
 }
 .fab:hover {	
-	color: black;
+	color:green;
 
 }
 .footer {
@@ -208,7 +208,7 @@ a{
 }
 /*==================media queary========================
 ========================================================*/
-@media all and (min-width: 320px) and (max-width: 640px) {
+@media all and (min-width:320px) and (max-width:640px) {
 .navigation ul {
  	display: none;
 }
@@ -220,18 +220,16 @@ a{
   height: 13vh;
 }
 .heading {
-/*  font-size: 5rem;*/
-  /*font-family: sans-serif;
-  position: absolute;*/
   left: 1rem;
-  bottom: 32rem;
-  font-size: 2rem;
+  bottom: 33rem;
+  font-size: 1.2rem;
 }
 .heading h4 {
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 400;
   padding: 15px;
+  font-size: 1rem;
 }
 .project-detail {
 	display: grid;
@@ -242,4 +240,36 @@ a{
 	display: grid;
 	grid-template-columns: auto;
 	grid-gap: 20px;
+}
+}
+@media all and (min-width: 720px) and (max-width: 1024px){
+.navigation ul {
+ 	display: none;
+}
+.top-1 {
+  background-attachment: local;
+  height: 22vh;
+}
+.heading {
+  left: 5rem;
+  bottom: 52rem;
+  font-size: 3rem;
+}
+.project-detail {
+	display: grid;
+	grid-template-columns:repeat(3,auto);
+	grid-gap: 30px;
+}
+/*.skill img {
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns:repeat(2,auto);
+
+}*/
+.contact-detail {
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+
+}
 }
